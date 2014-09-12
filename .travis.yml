@@ -4,5 +4,6 @@ before_script: bundle exec rake db:drop db:create db:migrate
 script: bundle exec rake
 deploy:
   provider: heroku
+  app: shielded-anchorage-5096
   api_key:
     secure: KF7zz2tymop4qheXvtQ2JLpz7K0EtQbRrZ+aOSqcs0A76qdk9Sn/ugq+04bo80E1UA5x6Hevl7tk8lL1DvLfxPEh7vdP22Pxq1bUyooaJ8ay4QfQHf1xreSOCSWoNHPW3YyMeqBd8hO6pFMgt9ChOCjFWSd/bT2skQ6xioHzXqI=

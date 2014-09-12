@@ -1,5 +1,5 @@
 == README
 
-Simple Rails 4 application with Travis-CI integration
+Simple Rails 4 application with Travis-CI and Heroku integration
 
 {<img src="https://travis-ci.org/Rodrigora/travis_ci_test.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/Rodrigora/travis_ci_test]
