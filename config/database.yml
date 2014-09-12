@@ -5,18 +5,18 @@
 #   gem 'sqlite3'
 #
 default: &default
-  adapter: sqlite3
+  adapter: postgresql
   pool: 5
   timeout: 5000
 
 development:
   <<: *default
-  database: db/development.sqlite3
+  database: travis_ci_test_development
 
 test:
   <<: *default
-  database: ":memory:"
+  database: travis_ci_test_test
 
 production:
   <<: *default
-  database: db/production.sqlite3
+  database: travis_ci_test_production
