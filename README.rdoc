@@ -5,3 +5,4 @@ Simple Rails 4 application with Travis-CI and Heroku integration
 {<img src="https://travis-ci.org/Rodrigora/travis_ci_test.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/Rodrigora/travis_ci_test]
 
 [ ![Codeship Status for Rodrigora/travis_ci_test](https://www.codeship.io/projects/7aab7400-201a-0132-5414-2ecc71115a88/status)](https://www.codeship.io/projects/35884)
+
